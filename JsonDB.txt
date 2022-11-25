@@ -1,0 +1,19 @@
+Project Title - Login form						
+
+A JSON document database is a type of nonrelational database that is designed to store and query data as JSON documents, rather than 
+normalizing data across multiple tables, each with a unique and fixed structure, as in a relational database.
+
+JsonDB: a Opensource, Java-based, Database
+
+									Why Jsondb
+
+You have a Java based program (or even Android App) and you:
+
+Need a light weight database of some kind to store a small amount (a few 1000 rows) of data,
+Need a pure java, easy to use, thread safe database,
+Need some ORM support,
+Need a good query interface,
+Okay with Mongodb like per API level atomicity (okay with eventualy data consistency),
+Want to be able to easily add, edit, update, delete the db data files, even when Jsondb is running,
+Want to be able to move the db files seamlessly, download updated files over network while db is running,
+Want to be able to safegaurd sensitive data (passwords etc) in the db data files, with some high strength encryption,
